@@ -55,16 +55,16 @@ map <C-h> B
 map <C-l> W
 map <C-j> }
 map <C-k> {
-  map <C-p> :tabprevious<CR>
-    map <C-n> :tabnext<CR>
-    map <C-t> :tabnew<CR>:e ./<CR>
-    map <C-t> :tabnew<CR>
-    nmap <Tab> >>
-    nmap <S-Tab> <<
-    nmap <Space> o<Esc>
-    nmap <CR> :w<CR>
-    imap <Tab> <Esc>
+map <C-p> :tabprevious<CR>
+map <C-n> :tabnext<CR>
+map <C-t> :tabnew<CR>:e ./<CR>
+map <C-t> :tabnew<CR>
+nmap <Tab> >>
+nmap <S-Tab> <<
+nmap <Space> o<Esc>
+nmap <CR> :w<CR>
+imap <Tab> <Esc>
 
-    abbr <form> <form action="" method="" id=""><CR></form>
-    abbr for() for (var i = 0; i < len; i++) {<CR>}<Esc><S-o><Space>
-    abbr <html> <!doctype html><CR><html><CR><head><CR><title></title><CR></head><CR><body><CR></body><CR></html>
+abbr <form> <form action="" method="" id=""><CR></form>
+abbr for() for (var i = 0; i < len; i++) {<CR>}<Esc><S-o><Space>
+abbr <html> <!doctype html><CR><html><CR><head><CR><title></title><CR></head><CR><body><CR></body><CR></html>
