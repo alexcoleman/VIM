@@ -26,8 +26,8 @@ set ts=2
 set expandtab
 
 " look and feel
-set t_co=<t_co>
-set bg=dark
+" set t_co=<t_co>
+" set bg=dark
 
 " turn syntax highlighting on by default
 " reference mysyntax file to define different syntax files
