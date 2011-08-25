@@ -27,7 +27,7 @@ set expandtab
 
 " look and feel
 " set t_co=<t_co>
-" set bg=dark
+set bg=dark
 
 " turn syntax highlighting on by default
 " reference mysyntax file to define different syntax files
@@ -63,7 +63,6 @@ nmap <Tab> >>
 nmap <S-Tab> <<
 nmap <Space> o<Esc>
 nmap <CR> :w<CR>
-imap <Tab> <Esc>
 
 abbr <form> <form action="" method="" id=""><CR></form>
 abbr for() for (var i = 0; i < len; i++) {<CR>}<Esc><S-o><Space>
